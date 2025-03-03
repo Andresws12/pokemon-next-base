@@ -15,8 +15,8 @@ const PokemonCard: React.FC<SimplePokemon> = ({ id, name }) => {
         <div>
           <Image
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`}
-            width={120}
-            height={120}
+            width={150}
+            height={150}
             alt={`Imagen de ${formattedName}`}
             priority={false}
           />
