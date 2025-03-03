@@ -7,7 +7,7 @@ const POKEMON_API_BASE_URL = "https://pokeapi.co/api/v2";
 const REVALIDATION_TIME = 60 * 60 * 30 * 6; // 6 días en segundos
 
 export async function getPokemons(
-  limit = 150,
+  limit = 75,
   offset = 0,
 ): Promise<SimplePokemon[]> {
   try {

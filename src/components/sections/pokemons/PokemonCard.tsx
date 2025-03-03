@@ -19,6 +19,7 @@ const PokemonCard: React.FC<SimplePokemon> = ({ id, name }) => {
             height={150}
             alt={`Imagen de ${formattedName}`}
             priority={false}
+            loading="lazy"
           />
           <div>
             <span>#{id}</span>
