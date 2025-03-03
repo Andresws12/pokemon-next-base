@@ -1,0 +1,54 @@
+$maxWidth: 800px;
+$padding: 2rem;
+$bg-item: var(--main-color-background-light);
+
+.overviewContainer {
+  &__header {
+    margin-bottom: 1.5rem;
+
+    &-title {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    &-description {
+      font-size: 1.25rem;
+      line-height: 1.6;
+    }
+  }
+
+  &__features {
+    margin-bottom: 1.5rem;
+
+    &-title {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    &-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    &-item {
+      background: $bg-item;
+      margin: 0.5rem 0;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+  }
+
+  &__demo {
+    &-title {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    &-description {
+      font-size: 1.25rem;
+      line-height: 1.6;
+    }
+  }
+}

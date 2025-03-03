@@ -37,3 +37,12 @@
 .content {
   padding: 1rem;
 }
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  &__titles {
+    font-size: 0.75rem;
+  }
+}
