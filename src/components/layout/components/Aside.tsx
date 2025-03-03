@@ -5,7 +5,7 @@ import { useAppState } from "@/store/appStore";
 
 import styles from "../AsideLayout.module.scss";
 
-import Navbar from "./Navbar";
+import Navbar from "./NavBarPage";
 
 export default function Aside() {
   const isAsideOpen = useAppState((state) => state.isAsideOpen);
