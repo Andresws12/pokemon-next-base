@@ -1,0 +1,20 @@
+// This file is only to apply styles on
+// html, body or global html tags
+// stylelint-disable-next-line
+
+// stylelint-disable-next-line
+body {
+  margin: 0;
+  display: flex;
+}
+
+// stylelint-disable selector-max-type, selector-id-pattern
+html,
+body {
+  min-height: 100vh;
+  background: var(--main-color-background);
+  color: var(--dark-color);
+  font-family: var(--main-font), var(--main-font-default);
+  font-size: 1.15rem;
+}
+// stylelint-enable selector-max-type, selector-id-pattern

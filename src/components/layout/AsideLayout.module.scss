@@ -1,0 +1,39 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.aside {
+  width: 250px;
+  background-color: var(--main-color-background-light);
+  padding: 1rem;
+  transition: all 0.3s ease;
+  border-right: 1px solid var(--light-color);
+}
+
+.main {
+  flex: 1;
+  margin: 1rem 0.3rem;
+  width: 100%;
+}
+.toggle {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+}
+.content {
+  padding: 1rem;
+}
